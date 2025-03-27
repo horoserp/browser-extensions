@@ -105,20 +105,50 @@ article {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 0.875rem;
 }
 
 .card {
   display: flex;
   flex-direction: column;
+  background-color: var(--Neutral-0);
+  padding: 1.1875rem;
+  border-radius: 1rem;
 }
 
 .details-container {
   display: flex;
+  margin-bottom: 3.125rem;
+}
+
+.card-logo {
+  height: 3.75rem;
+  margin-right: 1.125rem;
+}
+
+.card-title {
+  margin-bottom: 0.5rem;
+}
+
+.card-text {
+  font-size: 0.93rem;
 }
 
 .button-container {
   display: flex;
 }
+
+.card-button {
+  font-weight: 700;
+  background-color: var(--Neutral-0);
+  margin-right: auto;
+  padding: 0.75rem 1rem;
+  border-radius: 2rem;
+}
+
+/* TODO: Add border to card */
+/* TODO: Change colors on card-text, card-button (text and border) */
+/* TODO: Create toggle button */
 
 /* Extra small devices [iPhone SE - 375](phones, 600px and down) */
 @media only screen and (max-width: 600px) {
