@@ -60,7 +60,24 @@
     <script src="./script.js" defer></script>
   </head>
 
-  <body>
+  <body class="noto-sans">
+    <header>
+      <img class="logo" src="./assets/images/logo.svg" alt="Extension Logo" />
+      <img
+        class="mode"
+        src="./assets/images/icon-moon.svg"
+        alt="Switch to Dark Mode"
+      />
+    </header>
+    <article>
+      <div class="sort-options">
+        <h1 class="title w700">Extensions List</h1>
+        <button class="sort-button w500">All</button>
+        <button class="sort-button w500">Active</button>
+        <button class="sort-button w500">Inactive</button>
+      </div>
+      <div class="grid-container"></div>
+    </article>
     <main></main>
   </body>
 </html>
